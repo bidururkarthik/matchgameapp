@@ -1,0 +1,15 @@
+.picture_image {
+  height: 70px;
+  width: 70px;
+}
+
+.picture_button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.image_button_container {
+  list-style: none;
+  margin-right: 12px;
+}

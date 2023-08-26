@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main_container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.element_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.header_container {
+  background-color: #2c0e3a;
+  background-size: cover;
+  height: fit-content;
+  width: auto;
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weblogo {
+  height: 33px;
+  width: 80px;
+}
+
+.score {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #fec653;
+  margin-right: 18px;
+}
+
+.timer {
+  height: 25px;
+  width: 25px;
+  margin-top: 11px;
+  margin-right: 8px;
+}
+
+.count_container {
+  display: flex;
+}
+
+.seconds_container {
+  display: flex;
+}
+
+.picture {
+  height: 200px;
+  width: 330px;
+}
+
+.tab-list {
+  display: flex;
+  justify-content: center;
+}
+
+.image-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: 40vw;
+}
+
+.result_container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  height: 550px;
+  width: 430px;
+  margin-bottom: 27px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-left: 350px;
+}
+
+.trophy {
+  height: 200px;
+  width: 230px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.result_button {
+  background-color: #cf60c8;
+  border-width: 0px;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  color: white;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset {
+  height: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .main_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+  }
+
+  .picture {
+    height: 200px;
+    width: 230px;
+  }
+
+  .image-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+  }
+
+  .result_container {
+    height: 550px;
+    width: 350px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    background-size: cover;
+    margin-left: 20px;
+  }
+
+  .trophy {
+    height: 150px;
+    width: 140px;
+  }
+}
